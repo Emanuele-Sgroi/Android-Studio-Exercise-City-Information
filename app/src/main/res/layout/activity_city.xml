@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#f7fee7">
+
+    <!-- Back Button -->
+    <Button
+        android:id="@+id/buttonBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:background="#e11d48"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+    <!-- City Info -->
+    <ImageView
+        android:id="@+id/imageCity"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="16dp" />
+    <TextView
+        android:id="@+id/cityTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="City Title"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#e11d48"
+        android:layout_marginTop="8dp"/>
+    <TextView
+        android:id="@+id/textCityInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="City Information"
+        android:textSize="18sp"
+        android:textColor="#000000"/>
+</LinearLayout>
